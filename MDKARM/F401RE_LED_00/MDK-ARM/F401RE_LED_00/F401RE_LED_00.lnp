@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+"f401re_led_00\stm32f4xx_hal_pwr_ex.o"
+"f401re_led_00\stm32f4xx_hal.o"
+"f401re_led_00\stm32f4xx_hal_flash_ex.o"
+"f401re_led_00\stm32f4xx_hal_tim.o"
+"f401re_led_00\stm32f4xx_hal_pwr.o"
+"f401re_led_00\stm32f4xx_hal_flash.o"
+"f401re_led_00\stm32f4xx_hal_rcc.o"
+"f401re_led_00\stm32f4xx_hal_rcc_ex.o"
+"f401re_led_00\stm32f4xx_hal_gpio.o"
+"f401re_led_00\stm32f4xx_hal_flash_ramfunc.o"
+"f401re_led_00\stm32f4xx_hal_dma_ex.o"
+"f401re_led_00\stm32f4xx_hal_dma.o"
+"f401re_led_00\stm32f4xx_hal_cortex.o"
+"f401re_led_00\stm32f4xx_hal_tim_ex.o"
+"f401re_led_00\system_stm32f4xx.o"
+"f401re_led_00\startup_stm32f401xe.o"
+"f401re_led_00\stm32f4xx_it.o"
+"f401re_led_00\stm32f4xx_hal_msp.o"
+"f401re_led_00\main.o"
+--library_type=microlib --strict --scatter "F401RE_LED_00\F401RE_LED_00.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F401RE_LED_00.map" -o F401RE_LED_00\F401RE_LED_00.axf
